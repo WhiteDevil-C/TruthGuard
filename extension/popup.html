@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthGuard</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">🛡️</div>
+
+            <div>
+                <h1>TruthGuard</h1>
+                <p>AI Misinformation Detector</p>
+            </div>
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            <span>Ready to analyze</span>
+        </div>
+
+        <button id="analyzePage">
+            Analyze Page
+        </button>
+
+        <button id="checkSelectedText">
+            Check Selected Text
+        </button>
+
+        <div id="result" class="result hidden">
+
+            <h2>TruthGuard Analysis</h2>
+
+            <div class="result-item">
+                <span>Label</span>
+                <strong id="label">-</strong>
+            </div>
+
+            <div class="result-item">
+                <span>Confidence</span>
+                <strong id="confidence">-</strong>
+            </div>
+
+            <div class="backend-status">
+                Backend:
+                <span id="backendStatus">Not connected</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
