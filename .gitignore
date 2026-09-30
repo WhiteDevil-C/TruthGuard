@@ -4,3 +4,24 @@ __pycache__/
 .env
 .DS_Store
 backend/data/
+# Python virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# Node dependencies
+node_modules/
+
+# Build files
+dist/
+build/
