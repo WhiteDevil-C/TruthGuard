@@ -252,7 +252,6 @@ def main():
     #                               than the default 100.
     #   random_state=42           — reproducibility.
     classifier = LogisticRegression(
-        multi_class="multinomial",
         solver="lbfgs",
         C=1.0,
         class_weight="balanced",
